@@ -126,7 +126,7 @@ public class Recipes {
                 .buildAndRegister();
 
         RecipeMaps.ASSEMBLER_RECIPES.recipeBuilder()
-                .input(MetaItems.VOLTAGE_COIL_LUV, 8)
+                .input(MetaItems.VOLTAGE_COIL_LuV, 8)
                 .input(plateDouble, IndiumTinBariumTitaniumCuprate, 8)
                 .input(stickLong, PolyvinylChloride, 4)
                 .circuitMeta(3)
