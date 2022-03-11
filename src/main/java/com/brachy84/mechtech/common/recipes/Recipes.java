@@ -106,7 +106,7 @@ public class Recipes {
 
     private static void modules() {
         RecipeMaps.ASSEMBLER_RECIPES.recipeBuilder()
-                .input(MetaItems.SENSOR_LUV)
+                .input(MetaItems.SENSOR_LuV)
                 .input(plate, Osmium)
                 .input(cableGtSingle, NiobiumNitride)
                 .circuitMeta(3)
